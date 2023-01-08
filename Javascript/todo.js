@@ -22,7 +22,7 @@ function paintTodo(todoValue) {
     li.appendChild(span);
     span.innerText = todoValue.text;
     const button = document.createElement("button");
-    button.innerText = "Delete";
+    button.innerText = "Done!";
     button.addEventListener("click", deleteTodo);
     li.appendChild(button);
     todoList.appendChild(li);
