@@ -10,5 +10,5 @@ const chosenImage = images[Math.floor(Math.random() * MAX)];
 const bgImage = document.createElement("img");
 const page = document.querySelector("body");
 
-bgImage.src = `img/${chosenImage}`;
+bgImage.src = `${chosenImage}`;
 document.body.appendChild(bgImage);
